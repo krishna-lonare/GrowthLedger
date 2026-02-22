@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial; margin:0; background:#f5f7fb; color:#0f172a }
+.app { min-height:100vh; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:#111827; color:white }
+.brand { font-weight:700; font-size:18px }
+.nav-buttons button { margin-left:8px; padding:8px 12px; border-radius:6px; border:none; cursor:pointer }
+.nav-buttons button.primary { background:#0ea5a0; color:white }
+main { padding:20px }
+.task { background:white; padding:12px; border-radius:8px; margin-bottom:12px }
+.task h4 { margin:0 0 8px 0 }
+.subtask { display:flex; align-items:center; gap:8px; padding:6px 0 }
+.calendar-grid { display:grid; grid-template-columns: repeat(7, 1fr); gap:6px }
+.calendar-cell { background:white; min-height:80px; padding:8px; border-radius:6px }
+.today { border:2px solid #2563eb }
+.delete-button { background:#ef4444; color:white; border:none; padding:6px 10px; border-radius:6px; cursor:pointer }
+.delete-button-small { background:#ef4444; color:white; border:none; padding:2px 6px; border-radius:4px; cursor:pointer; font-size:16px; line-height:1; width:24px; height:24px }
+
+/* Dark mode */
+.app.dark { background:#0b1220; color:#e6eef8 }
+.app.dark .header { background:#0b1220; color:#e6eef8 }
+.app.dark .task { background:#0f1724; color:#e6eef8; border: 1px solid #1f2937 }
+.app.dark .calendar-cell { background:#0f1724; color:#e6eef8; border: 1px solid #1f2937 }
+.app.dark .nav-buttons button.primary { background:#0891b2 }
+.app.dark .delete-button { background:#ef4444 }
+.app.dark .delete-button-small { background:#ef4444 }
+.app.dark main { color:#e6eef8 }
+.app.dark h2 { color:#e6eef8 }
+.app.dark h3 { color:#e6eef8 }
+.app.dark h4 { color:#e6eef8 }

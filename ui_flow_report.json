@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-22",
+  "created": {
+    "status": 200,
+    "id": "699b3d71540d7c32268f7e60"
+  },
+  "beforeAnalysis": {
+    "date": "2026-02-22",
+    "total": 9,
+    "done": 2,
+    "percent": 22
+  },
+  "afterAnalysis": {
+    "date": "2026-02-22",
+    "total": 9,
+    "done": 2,
+    "percent": 22
+  },
+  "calendar": [
+    {
+      "date": "2026-02-22",
+      "total": 9,
+      "done": 2,
+      "percent": 22
+    }
+  ]
+}
